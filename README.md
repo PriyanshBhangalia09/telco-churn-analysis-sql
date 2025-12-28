@@ -113,6 +113,15 @@ telco-churn-analysis-sql/
 
 ---
 
+## 🚀 How to Run
+1. Create staging table (01_staging_table.sql)
+2. Import CSV into staging
+3. Create final tables (02_final_tables.sql)
+4. Insert + clean data (03_data_cleaning_insert.sql)
+5. Run analysis queries (04_churn_analysis.sql)
+
+---
+
 ## ✅ Conclusion
 This project demonstrates how SQL can be used beyond basic querying to build an end-to-end analytics workflow, from raw data ingestion and cleaning to business-driven churn analysis.
 By identifying early-stage churn, high-risk contract types, and revenue impact, the analysis highlights actionable insights that can directly support retention and growth strategies in a subscription-based business.
